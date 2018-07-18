@@ -61,7 +61,6 @@
 .social-media {
     text-align: center;
 }
-<<<<<<< HEAD
 
 .flex-container {
     display: flex;
@@ -89,12 +88,4 @@
 }
 
     
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-=======
-.weirdPic {
-    max-width:400px;
-}
->>>>>>> master
+ 
