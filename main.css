@@ -1,3 +1,20 @@
+
+/* Landing Image */
+.landingHeader {
+    display: flex;
+    justify-content: center;
+}
+/* Exec Summary */
+.execSummary {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.execUL {
+    list-style-type: none;
+    text-align: center;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
