@@ -44,4 +44,27 @@
 .social-media {
     text-align: center;
 }
-  
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#personalTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.parent4Personal {
+    background-color: burlywood;
+}
+
+.parent_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
