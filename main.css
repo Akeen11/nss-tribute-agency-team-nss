@@ -76,7 +76,7 @@
     justify-content: center;
 }
 
-.parent4Personal {
+#parent4Personal {
     background-color: burlywood;
 }
 
@@ -87,5 +87,8 @@
     width: 150px;
 }
 
+.personal-img:hover {
+    background-image: url("images/money_img.jpeg");
+}
     
  
