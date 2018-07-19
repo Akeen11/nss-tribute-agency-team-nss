@@ -1,38 +1,16 @@
-// Load Content
-function load_home() {
-    document.getElementById("content").innerHTML='<object type="text/html" data="execSummaryContent.html" style="width: 100%"></object>';
+
+// Load execSummary
+function load_execSummary() {
+    document.getElementById("execSummary").innerHTML='<object type="text/html" data="execSummaryContent.html" style="width: 100%"></object>';
     
 }
 
-load_home()
+load_execSummary()
 
-// Slide show Start
-var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+
+document.getElementById("birds").onmouseover = function() {mouseOver()};
+
+function mouseOver(){
+
 }
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("execSlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-// Slide Show End
