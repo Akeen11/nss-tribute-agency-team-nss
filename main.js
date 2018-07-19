@@ -6,11 +6,3 @@ function load_execSummary() {
 }
 
 load_execSummary()
-
-
-
-document.getElementById("birds").onmouseover = function() {mouseOver()};
-
-function mouseOver(){
-
-}
