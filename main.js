@@ -1,20 +1,13 @@
-//document.getElementById("birds").onmouseover = function() {mouseOver()};
 
-//function mouseOver(){
-
-//}
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+// Load execSummary
+function load_execSummary() {
+    document.getElementById("execSummary").innerHTML='<object type="text/html" data="execSummaryContent.html" style="width: 100%"></object>';
+    
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+load_execSummary()
+
+
 
 function showSlides(n) {
   var i;
@@ -32,41 +25,3 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-//Testing Ground//
-
-const lilDickyInfoDatabase = {}
-
-lilDickyInfoDatabase.Personal = {
-  Title: "Personal",
-  Name: "Name: David Andrew Burd",
-  Birthdate: "Born: March 15, 1988",
-  Relationship: "Relationship Status: Not Married",
-  From: "From: Philadelphia, Pennsylvania",
-  Current: "Currently: Los Angeles, California"
-}
-
-const saveDatabase = function (databaseObject, localStorageKey) {
-  const stringifiedDatabase = JSON.stringify(databaseObject)
-  localStorage.setItem(localStorageKey, stringifiedDatabase)
-
-}
-
-saveDatabase(lilDickyInfoDatabase, "Personal")
-
-
-//Loading the Database
-
-const loadDatabase = function (localStorageKey) {
-
-  const databaseString = localStorage.getItem(localStorageKey)
-
-  return JSON.parse(databaseString)
-}
-
-const LilDicPers = loadDatabase("Personal")
-console.log(LilDicPers);
-
-const birthDate = document.createElement("p")
-birthDate.innerHTML = lilDickyInfoDatabase.Personal.Birthdate
-const container = document.getElementById("Personal")
-container.appendChild(birthDate);

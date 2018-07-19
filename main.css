@@ -3,6 +3,10 @@
 .landingHeader {
     display: flex;
     justify-content: center;
+    background: url(images/landingHeader.jpeg);
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /* Exec Summary */
 .execSummary {
@@ -64,6 +68,7 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: rgba(0,0,0,0.7);
 }
 
 /* The dots/bullets/indicators */
