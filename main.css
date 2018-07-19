@@ -150,6 +150,42 @@
 .social-media {
     text-align: center;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+#personalTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#parent4Personal {
+    background-color: #DBC8B6;
+}
+
+.parent_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#birds:hover {
+    opacity: 1;
+    background-image: url("images/money_img.jpeg");
+}
+
+#Personal-card{
+    text-align: center;
+}
+    
+ 
 .weirdPic {
     max-width:400px;
 }
