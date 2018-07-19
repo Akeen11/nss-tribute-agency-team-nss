@@ -23,7 +23,7 @@
           <a class="nav-link" href="#career">Career <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Personal</a>
+          <a class="nav-link" href="#parent4Personal">Personal</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Newsfeed</a>
@@ -53,17 +53,16 @@
 
 
 <!-- Exec Summary Start -->
-  <div class="execSummary container">
-      <div class="row"> <!-- summary wrapper-->
-        
-        <div class="column execUL"> 
+  <div class="execSummary container row" style="margin-left: auto; margin-right: auto; height: 20em;">
+      
+        <div class="col-sm execUL"> 
           <img src="images/lildickyexecsummary.jpg">
           <h4>Lil'Dicky</h4>
           <h6>United States of America</h6>
         </div>
 
-        <div class="column">
-          <ul class="execUL">
+        <div class="col-sm">
+          <ul class="execUL"style="padding-left: 0px;">
             <li><h4>Known Aliases</h4></li>
             <li>Lil Dicky</li>
             <li>LD</li>
@@ -71,21 +70,58 @@
             <li>David Andrew Burd</li>
           </ul>
         </div>
-
-        <div class="column">
-          <span></span>
-          <ul class="execUL">
-            <li><h4>Known Collaborators</h4></li>
-            <li>Snoop Dogg</li>
-            <li>T-Pain</li>
-            <li>Fetty Wap</li>
-            <li>Brendon Urie</li>
-            <li>Hannibal Buress</li>
-            <li>Chris Brown</li>
-          </ul>
-        </div>
         
-      </div>
+        <div class="col-sm">
+          <h4 style="text-align: center;">Known Collaborators </h4>
+          <!-- Slideshow container -->
+          <div class="execSlideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="execSlides">
+              <img src="images/snoopDogg.jpg" style="width:100%">
+              <div class="text">Snoop Dogg</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/tpain.jpg" style="width:100%">
+              <div class="text">T-Pain</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/fettyWap.jpg" style="width:100%">
+              <div class="text">Fetty Wap</div>
+            </div>
+            
+            <div class="execSlides">
+              <img src="images/brendonUrie.jpg" style="width:100%">
+              <div class="text">Brendon Urie</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/hannibalBuress.jpg" style="width:100%">
+              <div class="text">Hannibal Buress</div>
+            </div>
+            <div class="execSlides">
+              <img src="images/chrisBrown.jpg" style="width:100%">
+              <div class="text">Chris Brown</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+  
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+          </div>
+        </div>
+
   </div>
 
 
@@ -333,9 +369,65 @@
 
 <!--Career End-->
 <!--Personal Start-->
+<div id="parent4Personal">
+  <h1 id="personalTitle">Personal Life</h1>
 
-
-
+  <!-- Flex Container - Pic and Info-->
+    <div class="flex-container">
+      <!--Image-->
+      <div class="personal-img">
+          <img src="images/bird_img.jpg" class="bird_img" id="birds" alt="personal_img">
+      </div>
+      <!--Personal Information Card-->
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Personal Information</h5>
+    <p class="card-text">Name: David Andrew Burd<br>
+        Born: March 15, 1988<br>Relationship Status: Not Married<br>
+        From: <a href="https://earth.google.com/web/@40.06251244,-75.12391707,52.32512447a,8582.98396669d,35y,86.50266779h,44.99801846t,0r/data=ClAaThJGCiUweDg5YzZiNzM0MDllMzRhMGY6MHg0NWI1ZTg4OTg5MDdlYmVhGYH0Aw3sCERAIRulprgFyFLAKgtFbGtpbnMgUGFyaxgCIAEoAg">Philadelphia, Pennsylvania</a><br>
+        Currently: Los Angeles, California
+    </p>
+  </div>
+</div>
+</div>
+<!--Parents Info-->
+  <div class="album py-5 bg-">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="images/patty_img.jpg" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Mom: Patty Loveless</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="images/jackson_img.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Dad: Alan Jackson</p>
+                <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+          </div>    
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="images/Labradoodle.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">Dog-Child: Lil Ricky</p>
+              <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+        </div>    
+      </div>
+</div>
+</div>
+</div>
+</div>
 
   
 
