@@ -53,17 +53,16 @@
 
 
 <!-- Exec Summary Start -->
-  <div class="execSummary container">
-      <div class="row"> <!-- summary wrapper-->
-        
-        <div class="column execUL"> 
+  <div class="execSummary container row" style="margin-left: auto; margin-right: auto; height: 20em;">
+      
+        <div class="col-sm execUL"> 
           <img src="images/lildickyexecsummary.jpg">
           <h4>Lil'Dicky</h4>
           <h6>United States of America</h6>
         </div>
 
-        <div class="column">
-          <ul class="execUL">
+        <div class="col-sm">
+          <ul class="execUL"style="padding-left: 0px;">
             <li><h4>Known Aliases</h4></li>
             <li>Lil Dicky</li>
             <li>LD</li>
@@ -71,21 +70,58 @@
             <li>David Andrew Burd</li>
           </ul>
         </div>
-
-        <div class="column">
-          <span></span>
-          <ul class="execUL">
-            <li><h4>Known Collaborators</h4></li>
-            <li>Snoop Dogg</li>
-            <li>T-Pain</li>
-            <li>Fetty Wap</li>
-            <li>Brendon Urie</li>
-            <li>Hannibal Buress</li>
-            <li>Chris Brown</li>
-          </ul>
-        </div>
         
-      </div>
+        <div class="col-sm">
+          <h4 style="text-align: center;">Known Collaborators </h4>
+          <!-- Slideshow container -->
+          <div class="execSlideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="execSlides">
+              <img src="images/snoopDogg.jpg" style="width:100%">
+              <div class="text">Snoop Dogg</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/tpain.jpg" style="width:100%">
+              <div class="text">T-Pain</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/fettyWap.jpg" style="width:100%">
+              <div class="text">Fetty Wap</div>
+            </div>
+            
+            <div class="execSlides">
+              <img src="images/brendonUrie.jpg" style="width:100%">
+              <div class="text">Brendon Urie</div>
+            </div>
+
+            <div class="execSlides">
+              <img src="images/hannibalBuress.jpg" style="width:100%">
+              <div class="text">Hannibal Buress</div>
+            </div>
+            <div class="execSlides">
+              <img src="images/chrisBrown.jpg" style="width:100%">
+              <div class="text">Chris Brown</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+  
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+          </div>
+        </div>
+
   </div>
 
 
@@ -187,28 +223,44 @@
 
 <!-- Exec Summary End-->
 <!--Career Start-->
-<div class = "career row">
-  <!-- card for intro --> 
+<div class = "career row card-deck">
+  <div class = "column">
 
     <div class:"card info" style="width: 18rem;"> <!--Start info div-->
       <img class="card-img-top" src="images/lildickycareerinfo.jpg" alt="Lil Dicky making a small hand motion">
       <div class="card-body">
         <p class ="card-text">Lil Dicky is a comedian rapper hailing from an upper middle class neighborhood in Philidelphia. He has released one mixtape, one studio album, one e.p., and five singles. Lil Dicky began his career in 2011 and would release his finished mixtape in 2013. Lil Dicky first gained wide-spread fame with the release of the music video for his song "Ex-Boyfriend".</p>
         </div>
+
     </div><!--End Info div-->
+
+    <div class:"card" style="width: 18rem;"> <!--Start collab div-->
+      <img class="card-img-top" src="images/lil_dicky_snoop_collab.jpg" alt="Collab Pic">
+      <div class="card-body">
+        <p class ="card-text">Lil Dicky has collabed with artists such as T-Pain, Snoop Dogg, Rich Homie Quan, Fetty Wap, Brendon Urie, Kent Jones, Trinidad James, The Game, and Chris Brown These different collaborations have recieved mixed amounts of fame, from the underwhelming feature in "Sit Down" to the mega-hit "Freaky Friday". The wide range of talent, both proven and new help to showcase the abilities of Lil Dicky and prove that he doesn't just ride on the coattails his featured guests.</p>
+        </div>
+      </div><!--End Collabs div-->
+
+    </div><!--End column for intro and collabs-->
     
+
     <div class = "column"><!--Skills and places lived column div-->
+
       <div class = "card" style="width: 18rem;"><!--Skills div-->
         <img class="card-img-top weirdPic" src="images/lil_dicky_rapping.jpg" alt="Lil Dicky Rapping">
         <h5 class="card-title text-center">Skills</h5>
         <p class="card-text">Lil Dicky is talented in both the fields of rapping and comedy. His goal is to be able to make stable careers out of the two at the same time. Originally an accountant, he spent two years planning out his rap career. </p>
       </div><!--End Skills div-->
+
+
       <div><!--start Places lived div-->
+
         <div class = "card" style="width: 18rem;">
           <img class="card-img-top weirdPic" src="images/lil_dicky_house.jpg" alt="Lil Dicky's Venice House">
           <h5 class="card-title text-center">Places Lived</h5>
           <p class="card-text">Lil Dicky grew up in Cheltenham Township, Pennsylvania, where he lived from 1988 until the end of his high school career. Lil Dicky attended the University of Richmond in Richmond, Virginia where he graduated in 2010. After graduating college, Lil Dicky moved to Sanfrancisco, California. In 2018, Lil Dicky purchased the house pictured above for 2.5 million dollars. in the illustrious Venice neighborhood in California.</p>
         </div>
+      
       </div><!--End places lived div-->
     </div><!--End Skills and places lived column div-->
 
@@ -326,16 +378,18 @@
       <div class="personal-img">
           <img src="images/bird_img.jpg" class="bird_img" id="birds" alt="personal_img">
       </div>
-      <!--Personal Information-->
-    <div class="Personal_info">
-        <p>David Andrew Burd</p>
-        <p>Born March 15, 1988</p>
-        <p>Relationship Status: Not Married</p>
-         <p><a href="https://earth.google.com/web/@40.06251244,-75.12391707,52.32512447a,8582.98396669d,35y,86.50266779h,44.99801846t,0r/data=ClAaThJGCiUweDg5YzZiNzM0MDllMzRhMGY6MHg0NWI1ZTg4OTg5MDdlYmVhGYH0Aw3sCERAIRulprgFyFLAKgtFbGtpbnMgUGFyaxgCIAEoAg">Philadelphia, USA</a>
-      </p>
-      <p>Currently living in Los Angeles, California</p>
-    </div>
-    </div>
+      <!--Personal Information Card-->
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Personal Information</h5>
+    <p class="card-text">Name: David Andrew Burd<br>
+        Born: March 15, 1988<br>Relationship Status: Not Married<br>
+        From: <a href="https://earth.google.com/web/@40.06251244,-75.12391707,52.32512447a,8582.98396669d,35y,86.50266779h,44.99801846t,0r/data=ClAaThJGCiUweDg5YzZiNzM0MDllMzRhMGY6MHg0NWI1ZTg4OTg5MDdlYmVhGYH0Aw3sCERAIRulprgFyFLAKgtFbGtpbnMgUGFyaxgCIAEoAg">Philadelphia, Pennsylvania</a><br>
+        Currently: Los Angeles, California
+    </p>
+  </div>
+</div>
+</div>
 <!--Parents Info-->
   <div class="album py-5 bg-">
       <div class="container">
@@ -374,6 +428,7 @@
 </div>
 </div>
 </div>
+
   
 
 
@@ -470,18 +525,95 @@
 
 <!--End Personal-->
 <!--News Feed-->
+<div class="news-feed">
+
+<div class="recent-events"><!-- Start recent events div-->
+  <div class="card text-center" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Atlanta, GA</h5>
+      <p class="card-text">Lil Dicky at Coca-Cola Roxy Theatre</p><hr><p>Tuesday, October 30th<br>8:00p.m.</p>
+      <a href="https://www.jambase.com/show/lil-dicky-coca-cola-roxy-theatre-20181030" class="btn btn-primary">Buy Tickets</a>
+    </div>
+  </div>
+  <div class="card text-center" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Nashville, TN</h5>
+      <p class="card-text">Lil Dicky at Nashville Municipal Auditorium</p><hr><p>Wednesday, October 31st<br>8:00p.m.</p>
+      <a href="https://www.jambase.com/show/lil-dicky-nashville-municipal-auditorium-20181031" class="btn btn-primary">Buy Tickets</a>
+    </div>
+  </div>
+  <div class="card text-center" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Philadelphia, PA</h5>
+      <p class="card-text">Lil Dicky at Liacouras Center</p><hr><p>Friday, November 2nd<br>8:00p.m.</p>
+      <a href="https://www.jambase.com/show/lil-dicky-liacouras-center-20181102" class="btn btn-primary">Buy Tickets</a>
+    </div>
+  </div>
+</div><!-- End recent events div-->
+
+  <div class="event-info"><!-- Start event info div -->
+
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Coca-Cola Roxy Theatre</h5>
+        <p class="card-text">This is an all ages event. Doors: 7pm Show: 8pm Front Mezz double lettered rows are reserved seating. Everything else is general admission first come first served. Line up: Lil Dicky, Mustard, Oliver Tree.</p>
+        <a href="http://www.cocacolaroxy.com/EventDetail?tmeventid=0E0054D2CDB44644&offerid=86761" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Nashville Municipal Auditorium</h5>
+        <p class="card-text">Join us as we present Life Lessons with Lil Dicky. Special guests: Mustard and Oliver Tree. Tickets are $49-149 plus applicable fees. </p>
+        <a href="http://www.nashvilleauditorium.com/events/ld.asp" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Liacouras Center</h5>
+        <p class="card-text">Presenting Life Lessons with Lil Dicky. Event open to all ages. Doors open: 7pm, Show begins: 8pm. Special performances by Mustard and Oliver Tree</p>
+        <a href="http://www.liacourascenter.com/events/Lil_Dicky_PHL" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+    
+  </div><!-- End event info div -->
+
+  <div class="event-rating"><!-- Start event rating div -->
+
+    <div class="card text-center" style="width: 18.25rem;">
+      <div class="card-body">
+        <h5 class="card-title"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+        <p class="card-text">"Not too far, but not close enough."<br>-People not in Atlanta</p>
+      </div>
+    </div>
+    <div class="card text-center" style="width: 18.25rem;">
+      <div class="card-body">
+        <h5 class="card-title"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></h5>
+        <p class="card-text">"5 out of 5 definitely going."<br>-Me</p>
+      </div>
+    </div>
+    <div class="card text-center" style="width: 18.25rem;">
+      <div class="card-body">
+        <h5 class="card-title"><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+        <p class="card-text">"Philadelphia? Yeah right."<br>-Everyone</p>
+      </div>
+    </div>
 
 
 
-<footer class="social-media">
-<!-- Add font awesome icons -->
-<a href="https://www.lildicky.com/" class="fa fa-chrome"></a>
-<a href="https://www.facebook.com/LilDickyRap/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/lildickytweets?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
-<a href="https://www.instagram.com/lildickygram/?hl=en" class="fa fa-instagram"></a>
-<a href="https://www.youtube.com/channel/UC8rVJyj4zE0S9-sccMLifIA" class="fa fa-youtube"></a>
-</footer>
 
+  </div><!-- End event rating div -->
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- End news-feed div-->
 
 
 
@@ -581,7 +713,14 @@
 
 
 
-
+<footer class="social-media">
+  <!-- Add font awesome icons -->
+  <a href="https://www.lildicky.com/" class="fa fa-chrome"></a>
+  <a href="https://www.facebook.com/LilDickyRap/" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/lildickytweets?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/lildickygram/?hl=en" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/channel/UC8rVJyj4zE0S9-sccMLifIA" class="fa fa-youtube"></a>
+  </footer>
 
 
 
