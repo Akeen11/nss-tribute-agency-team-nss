@@ -11,7 +11,7 @@
 
 <body>
   <!--Nav Bar-->
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark" id="NavBar">
     <a class="navbar-brand" href="#">Lil Dicky</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
           <a class="nav-link" href="#parent4Personal">Personal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Newsfeed</a>
+          <a class="nav-link disabled" href="#news_feed">Newsfeed</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-md-0">
@@ -223,7 +223,7 @@
 
 <!-- Exec Summary End-->
 <!--Career Start-->
-<div class = "career row card-deck">
+<div class = "career row card-deck" id="career">
   <div class = "column">
 
     <div class:"card info" style="width: 18rem;"> <!--Start info div-->
@@ -348,27 +348,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--Career End-->
+
 <!--Personal Start-->
+ <!--Personal Start-->
 <div id="parent4Personal">
   <h1 id="personalTitle">Personal Life</h1>
 
@@ -381,11 +364,11 @@
       <!--Personal Information Card-->
 <div class="card text-center" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Personal Information</h5>
-    <p class="card-text">Name: David Andrew Burd<br>
-        Born: March 15, 1988<br>Relationship Status: Not Married<br>
-        From: <a href="https://earth.google.com/web/@40.06251244,-75.12391707,52.32512447a,8582.98396669d,35y,86.50266779h,44.99801846t,0r/data=ClAaThJGCiUweDg5YzZiNzM0MDllMzRhMGY6MHg0NWI1ZTg4OTg5MDdlYmVhGYH0Aw3sCERAIRulprgFyFLAKgtFbGtpbnMgUGFyaxgCIAEoAg">Philadelphia, Pennsylvania</a><br>
-        Currently: Los Angeles, California
+    <h5 class="card-title" id="personal_info_card">Personal Information</h5>
+    <p class="card-text" id="name">Name: David Andrew Burd
+        <p id="birthdate">Born: March 15, 1988</p><p id="relationship_status">Relationship Status: Not Married</p><p id="birthCountry">
+        From: <a href="https://earth.google.com/web/@40.06251244,-75.12391707,52.32512447a,8582.98396669d,35y,86.50266779h,44.99801846t,0r/data=ClAaThJGCiUweDg5YzZiNzM0MDllMzRhMGY6MHg0NWI1ZTg4OTg5MDdlYmVhGYH0Aw3sCERAIRulprgFyFLAKgtFbGtpbnMgUGFyaxgCIAEoAg">Philadelphia, Pennsylvania</a></p><p>
+        Currently: Los Angeles, California</p>
     </p>
   </div>
 </div>
@@ -427,13 +410,11 @@
 </div>
 </div>
 </div>
-</div>
+</div> 
 
-  
+<!--Testing Ground-->
 
-
-
-
+<article id="Personal"></article>
 
 
 
@@ -525,7 +506,7 @@
 
 <!--End Personal-->
 <!--News Feed-->
-<div class="news-feed">
+<div class="news-feed" id="news_feed">
 
 <div class="recent-events"><!-- Start recent events div-->
   <div class="card text-center" style="width: 18rem;">
