@@ -173,3 +173,7 @@
 .checked {
     color: orange;
 }
+
+.feed-header {
+    text-align: center;
+}
