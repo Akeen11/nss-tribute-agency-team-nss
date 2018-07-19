@@ -103,7 +103,7 @@
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 42px;
     text-align: center;
     text-decoration: none;
 }
@@ -119,27 +119,32 @@
 .fa-facebook {
     background: #3B5998;
     color: white;
+    width: 50px;
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    width: 50px;
 }
 
 .fa-instagram {
     background: purple;
     color: white;
+    width: 50px;
 }
 
 .fa-youtube {
     background: red;
     color: white;
+    width: 50px;
 }
 
 .fa-chrome {
     background: green;
     color: white;
+    width: 50px;
 }
 
 .social-media {
@@ -147,4 +152,24 @@
 }
 .weirdPic {
     max-width:400px;
+}
+
+.card {
+    margin: 2%;
+}
+
+.recent-events {
+    display: -webkit-inline-flex;
+}
+
+.event-info {
+    display: -webkit-inline-flex;
+}
+
+.event-rating {
+    display: -webkit-inline-flex;
+}
+
+.checked {
+    color: orange;
 }
