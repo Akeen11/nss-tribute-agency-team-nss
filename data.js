@@ -5,7 +5,7 @@ htmlData.career = []
 htmlData.newsFeed = []
 htmlData.Personal = []
 
-let testData =  "Presenting Life Lessons with Lil Dicky. Event open to all ages. Doors open: 7pm, Show begins: 8pm. Special performances by Mustard and Oliver Tree";
+let testData = 'Presenting Life Lessons with Lil Dicky. Event open to all ages. Doors open: 7pm, Show begins: 8pm. Special performances by Mustard and Oliver Tree';
 
 
 htmlData.career.push(testData);
