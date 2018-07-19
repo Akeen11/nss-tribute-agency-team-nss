@@ -1,3 +1,8 @@
+//document.getElementById("birds").onmouseover = function() {mouseOver()};
+
+//function mouseOver(){
+
+//}
 var slideIndex = 1;
 showSlides(slideIndex);
 
