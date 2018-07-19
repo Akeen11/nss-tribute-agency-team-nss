@@ -1,3 +1,12 @@
+// Load Content
+function load_home() {
+    document.getElementById("content").innerHTML='<object type="text/html" data="execSummaryContent.html" style="width: 100%"></object>';
+    
+}
+
+load_home()
+
+// Slide show Start
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +35,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+// Slide Show End
