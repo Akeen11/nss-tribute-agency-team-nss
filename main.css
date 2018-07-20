@@ -1,3 +1,6 @@
+body {
+    background-image: url(https://files.greatermedia.com/uploads/sites/20/2018/07/lildickytour.jpg)
+}
 
 /* Landing Image */
 .landingHeader {
@@ -176,9 +179,7 @@
     justify-content: center;
 }
 
-#Personal_Content {
-    background-color: #DBC8B6;
-}
+
 
 .parent_img {
     border: 1px solid #ddd;
@@ -207,14 +208,17 @@
 
 .recent-events {
     display: -webkit-inline-flex;
+    padding-left: 275px;
 }
 
 .event-info {
     display: -webkit-inline-flex;
+    padding-left: 275px;
 }
 
 .event-rating {
     display: -webkit-inline-flex;
+    padding-left: 275px;
 }
 
 .checked {
@@ -223,4 +227,9 @@
 
 .feed-header {
     text-align: center;
+    background-color: white;
+    color: black;
+    width: 250px;
+    margin-left: 581px;
 }
+
