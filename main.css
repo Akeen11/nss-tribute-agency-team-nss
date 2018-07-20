@@ -162,13 +162,13 @@
     z-index: 1;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-}
+} */
 
 
 #personalTitle {
@@ -176,7 +176,7 @@
     justify-content: center;
 }
 
-#parent4Personal {
+#Personal_Content {
     background-color: #DBC8B6;
 }
 
