@@ -177,6 +177,11 @@ body {
 #personalTitle {
     display: flex;
     justify-content: center;
+    color: white;
+}
+
+.background-lighter {
+    background-color: white;
 }
 
 
