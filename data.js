@@ -27,6 +27,59 @@ const dumbLoop = function (abc, cab){
     }
 }
 
+const hardMode = function(){
+    endGameContent.innerHTML += `<div  class ='career row card-deck justify-content-around' id = 'career'><div class = 'column'>`;
+}
+
+let bigBadBoss= function(){ 
+    endGameContent.innerHTML += `<div class = "column"> <div class = "card info" style="width: 18rem;"> <!--Start info div-->
+<img class="card-img-top weirdPic" src="images/lildickycareerinfo.jpg" alt="Lil Dicky making a small hand motion">
+<h5 class="card-title text-center"> Career</h5>
+  <p class ="card-text" id = "doesItWork"></p>
+</div><!--End Info div-->
+
+<div class = "card" style="width: 18rem;"> <!--Start collab div-->
+<img class="card-img-top weirdPic" src="images/lil_dicky_snoop_collab.jpg" alt="Collab Pic">
+<h5 class="card-title text-center"> Collabs</h5>
+  <p class ="card-text" id = "doesItWorkTwoElectricBoogaloo"></p>
+</div><!--End Collabs div-->
+
+</div><!--End column for intro and collabs-->
+
+<div class = "column"><!--Skills and places lived column div-->
+<div class = "card" style="width: 18rem;"><!--Skills div-->
+  <img class="card-img-top weirdPic" src="images/lil_dicky_rapping.jpg" alt="Lil Dicky Rapping">
+  <h5 class="card-title text-center">Skills</h5>
+  <p class="card-text" id = "doesItWorkThreeDespicableMe"> </p>
+</div><!--End Skills div-->
+
+<div><!--start Places lived div-->
+  <div class = "card" style="width: 18rem;">
+    <img class="card-img-top weirdPic" src="images/lil_dicky_house.jpg" alt="Lil Dicky's Venice House">
+    <h5 class="card-title text-center">Places Lived</h5>
+    <p class="card-text" id ="doesItWorkFourSalesPeopleAtTheDoor"></p>
+  </div>
+</div><!--End places lived div-->
+</div><!--End Skills and places lived column div-->
+
+
+
+<div class = "column"><!--Published works and Awards div-->
+<div class = "card" style="width: 18rem;"><!--Published Works div-->
+  <img class="card-img-top weirdPic" src="images/lil_dicky_album_freaky_friday.jpg" alt="Lil Dicky's Freaky Friday artwork">
+  <h5 class="card-title text-center">Published Works</h5>
+  <p class="card-text" id = "doesItWorkFiveTheySellSteakKnives"></p>
+</div><!--End Published Works div-->
+<div><!--start Awards div-->
+  <div class = "card" style="width: 18rem;">
+    <img class="card-img-top weirdPic" src="images/certified_platinum.png" alt="RIAA Certified Platinum Record">
+    <h5 class="card-title text-center">Awards</h5>
+    <p class="card-text" id = "doesItWorkSixTheUninspiredTitle"></p>
+  </div>
+</div><!--Awards-->
+</div><!--End Published works and Awards div-->`
+};
+
 //stuff to insert into the database
 let careerInfo =  "Lil Dicky is a comedian rapper hailing from an upper middle class neighborhood in Philidelphia. He has released one mixtape, one studio album, one e.p., and five singles. Lil Dicky began his career in 2011 and would release his finished mixtape in 2013. Lil Dicky first gained wide-spread fame with the release of the music video for his song 'Ex-Boyfriend'.";
 
@@ -40,6 +93,12 @@ let careerWorks = "Lil Dicky's debut began with the release of his mixtape 'So H
 
 let careerAwards = "Lil Dicky has recieved several awards for his music based on sales. His singles have done particulary well, with 'Lemme Freak' being RIAA certified gold, 'Save Dat Money' being RIAA certified platinum, 'Professional Rapper' being RIAA certified gold, and 'Freaky Friday' being RIAA certified platinum, ARIA certified platinum, BPI certified platinum, and RMNZ certified platinum. His only studio album, Professional Rapper, was RIAA certified Gold and peaked at number 7 on the US Billboard Top 100.";
 
+let endGameContent = document.getElementById("career")
+const hardMode = function(){
+    endGameContent.innerHTML += `<div  class ='career row card-deck justify-content-around' id = 'career'><div class = 'column'>`;
+}
+hardMode();
+bigBadBoss();
 
 //put info into database, then local storage, call the info and put into html through id
 htmlData.info.push(careerInfo);
@@ -74,53 +133,7 @@ dumbLoop(localStorage.careerAwards, "doesItWorkSixTheUninspiredTitle");
 
 
 
-endGameContent = "<div  class ='career row card-deck justify-content-around' id = 'career'><div class = 'column'>"
-
-for(i=2; i<=abc.length-3; i++){
-    endGameContent += '<div class = "card info" style="width: 18rem;"> <!--Start info div-->
-    <img class="card-img-top weirdPic" src="images/lildickycareerinfo.jpg" alt="Lil Dicky making a small hand motion">
-    <h5 class="card-title text-center"> Career</h5>
-      <p class ="card-text" id = "doesItWork"></p>
-  </div><!--End Info div-->
-
-  <div class = "card" style="width: 18rem;"> <!--Start collab div-->
-    <img class="card-img-top weirdPic" src="images/lil_dicky_snoop_collab.jpg" alt="Collab Pic">
-    <h5 class="card-title text-center"> Collabs</h5>
-      <p class ="card-text" id = "doesItWorkTwoElectricBoogaloo"></p>
-    </div><!--End Collabs div-->
-
-  </div><!--End column for intro and collabs-->
-  
-  <div class = "column"><!--Skills and places lived column div-->
-    <div class = "card" style="width: 18rem;"><!--Skills div-->
-      <img class="card-img-top weirdPic" src="images/lil_dicky_rapping.jpg" alt="Lil Dicky Rapping">
-      <h5 class="card-title text-center">Skills</h5>
-      <p class="card-text" id = "doesItWorkThreeDespicableMe"> </p>
-    </div><!--End Skills div-->
-
-    <div><!--start Places lived div-->
-      <div class = "card" style="width: 18rem;">
-        <img class="card-img-top weirdPic" src="images/lil_dicky_house.jpg" alt="Lil Dicky's Venice House">
-        <h5 class="card-title text-center">Places Lived</h5>
-        <p class="card-text" id ="doesItWorkFourSalesPeopleAtTheDoor"></p>
-      </div>
-    </div><!--End places lived div-->
-  </div><!--End Skills and places lived column div-->
 
 
 
-  <div class = "column"><!--Published works and Awards div-->
-    <div class = "card" style="width: 18rem;"><!--Published Works div-->
-      <img class="card-img-top weirdPic" src="images/lil_dicky_album_freaky_friday.jpg" alt="Lil Dicky's Freaky Friday artwork">
-      <h5 class="card-title text-center">Published Works</h5>
-      <p class="card-text" id = "doesItWorkFiveTheySellSteakKnives"></p>
-    </div><!--End Published Works div-->
-    <div><!--start Awards div-->
-      <div class = "card" style="width: 18rem;">
-        <img class="card-img-top weirdPic" src="images/certified_platinum.png" alt="RIAA Certified Platinum Record">
-        <h5 class="card-title text-center">Awards</h5>
-        <p class="card-text" id = "doesItWorkSixTheUninspiredTitle"></p>
-      </div>
-    </div><!--Awards-->
-  </div><!--End Published works and Awards div-->'
-}
+   
