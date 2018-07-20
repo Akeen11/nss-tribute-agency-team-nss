@@ -5,16 +5,7 @@ function load_execSummary() {
     
 }
 
-load_execSummary()
-
-
-
-// document.getElementById("birds").onmouseover = function() {mouseOver()};
-
-// function mouseOver(){
-
-// }
-
+load_execSummary();
 
 var link = document.querySelector('link[rel="import"]'),
 content = link.import,
@@ -27,9 +18,3 @@ feedDocumentLocation.appendChild(el.cloneNode(true));
 
 localStorage.setItem("boom",document.querySelector('#news-feed').innerHTML);
 document.querySelector('#news-feed').innerHTML = localStorage.getItem("boom")
-
-
-
-
-
-
