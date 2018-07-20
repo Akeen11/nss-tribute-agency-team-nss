@@ -6,10 +6,8 @@ body {
 .landingHeader {
     display: flex;
     justify-content: center;
-    background: url(images/landingHeader.jpeg);
     height: 30em;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    margin-top: 3.5rem;
 }
 /* Exec Summary */
 .execSummary {
@@ -163,6 +161,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 /* .flex-container {
