@@ -34,7 +34,6 @@ const loadDatabase = function (localStorageKey) {
 
 saveDatabase(htmlData.career, "careerinfo" );
 
-
 loadDatabase("careerinfo");
 
 const dumbLoop = function (abc, cab){
