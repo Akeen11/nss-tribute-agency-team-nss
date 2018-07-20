@@ -70,7 +70,7 @@ let paragraph = document.getElementById("Personal_Content")
 // const paragraph = document.createElement("div")
 paragraph.innerHTML += `<div class="media">
 <img class="align-self-center mr-3" src="${Personal.lilDicky.Photo}" alt="${Personal.lilDicky.Name}" >
-<div class="media-body">
+<div class="media-body background-lighter">
 <h2 class="mt-0">${Personal.lilDicky.Name}</h2>
 <h4>${Personal.lilDicky.Birthdate}</h4>
 <p>${Personal.lilDicky.Relationship}</p>
@@ -159,25 +159,7 @@ finalHTML += `</div>
 paragraph.innerHTML += finalHTML;
    
 
-  // paragraph.innerHTML += `<div class="album py-5 bg-">
-  //     <div class="container">
-  //       <div class="row">
-
-  //       <div class="col-md-4">
-  //           <div class="card mb-4 box-shadow">
-  //             <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="${Personal.famMembers[0].Photo}" data-holder-rendered="true">
-  //             <div class="card-body">
-  //               <p class="card-text">${Personal.famMembers[0].Title}<br>${Personal.famMembers[0].Name}</p>
-  //               <div class="d-flex justify-content-between align-items-center">
-  //               </div>
-  //             </div>
-  //           </div>
-  //         </div>
-
-  //     </div>
-  //   </div>
-  // </div>`
-
+  
 
 
 
