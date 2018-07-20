@@ -94,9 +94,7 @@ let careerWorks = "Lil Dicky's debut began with the release of his mixtape 'So H
 let careerAwards = "Lil Dicky has recieved several awards for his music based on sales. His singles have done particulary well, with 'Lemme Freak' being RIAA certified gold, 'Save Dat Money' being RIAA certified platinum, 'Professional Rapper' being RIAA certified gold, and 'Freaky Friday' being RIAA certified platinum, ARIA certified platinum, BPI certified platinum, and RMNZ certified platinum. His only studio album, Professional Rapper, was RIAA certified Gold and peaked at number 7 on the US Billboard Top 100.";
 
 let endGameContent = document.getElementById("career")
-const hardMode = function(){
-    endGameContent.innerHTML += `<div  class ='career row card-deck justify-content-around' id = 'career'><div class = 'column'>`;
-}
+
 hardMode();
 bigBadBoss();
 
