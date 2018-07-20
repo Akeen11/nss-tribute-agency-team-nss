@@ -7,6 +7,7 @@ htmlData.skills = []
 htmlData.lived = []
 htmlData.works = []
 htmlData.awards = []
+htmlData.setup =[]
 
 //function to convert object from database into string
 const saveDatabase = function (databaseObject, localStorageKey) {
@@ -38,7 +39,6 @@ let careerLived = "Lil Dicky grew up in Cheltenham Township, Pennsylvania, where
 let careerWorks = "Lil Dicky's debut began with the release of his mixtape 'So Hard' in 2013. From there, he would release the singles 'Lemme Freak' and 'White Crime' in 2014 and 'Save Dat Money' and 'Professional Rapper' in 2015. The release of these singles would build up to the release of his first studio album 'Professional Rapper' in 2015. Since the release of his album,he has been featured in two songs 'Just a Lil' Thick (She Juicy)' and 'Sit Down'. He also released the EP 'I'm Brain' in 2017 and the mega-hit single 'Freaky Friday' in 2018.";
 
 let careerAwards = "Lil Dicky has recieved several awards for his music based on sales. His singles have done particulary well, with 'Lemme Freak' being RIAA certified gold, 'Save Dat Money' being RIAA certified platinum, 'Professional Rapper' being RIAA certified gold, and 'Freaky Friday' being RIAA certified platinum, ARIA certified platinum, BPI certified platinum, and RMNZ certified platinum. His only studio album, Professional Rapper, was RIAA certified Gold and peaked at number 7 on the US Billboard Top 100.";
-
 
 
 //put info into database, then local storage, call the info and put into html through id
