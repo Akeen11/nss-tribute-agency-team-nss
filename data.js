@@ -43,14 +43,6 @@ const dumbLoop = function (abc, cab){
     }
 }
 dumbLoop(localStorage.careerinfo, "doesItWork")
-// console.log(localStorage.test);
-// console.log(Object.values(localStorage.test));
-// // console.log(JSON.stringify(abcdefg))
-// document.getElementById("example").innerHTML = localStorage.test[2];
-
-// localStorage.setItem("example", "Presenting Life Lessons with Lil Dicky. Event open to all ages. Doors open: 7pm, Show begins: 8pm. Special performances by Mustard and Oliver Tree")
-
-// document.getElementById("example").innerHTML = localStorage.getItem("example");
 
 
 

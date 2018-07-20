@@ -15,11 +15,6 @@ load_execSummary()
 
 // }
 
-// function load_newsFeed() {
-//     document.getElementById("news-feed").innerHTML='<object type="text/html" data="news-feed.html"></object>';
-// }
-
-// load_newsFeed()
 
 var link = document.querySelector('link[rel="import"]'),
 content = link.import,
